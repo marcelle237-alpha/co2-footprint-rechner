@@ -1,6 +1,6 @@
 # 🌍 CO2 Footprint Rechner
 
-A simple web app that estimates your carbon footprint based on your transport habits — car, flights, and public transit.
+A simple web app that estimates your carbon footprint based on your transport habits car, flights, and public transit.
 
 🔗 **Live demo:** https://marcelle237-alpha.github.io/co2-footprint-rechner
 
@@ -28,7 +28,7 @@ No build step, no dependencies — just open the file in a browser.
 
 - Working with real-world CO2 emission factors and doing the math client-side
 - Structuring a multi-input form and handling calculations with vanilla JS
-- (Add anything else specific — did you research actual emission-factor data? handle edge cases like empty inputs? make it responsive?)
+- (Add anything else specific did you research actual emission-factor data? handle edge cases like empty inputs? make it responsive?)
 
 ## Possible improvements
 
