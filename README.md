@@ -22,7 +22,7 @@ cd co2-footprint-calculator
 open index.html
 ```
 
-No build step, no dependencies — just open the file in a browser.
+No build step, no dependencies just open the file in a browser.
 
 ## What I learned
 
