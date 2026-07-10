@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CO2 Rechner</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+
+    <h1>Carbon Footprint Calculator</h1>
+
+    <form id="co2Form" onsubmit="event.preventDefault(); calculateCO2();">
+
+        <label for="personName">Name:</label>
+        <input id="personName" type="text" name="personName" required>
+
+        <label for="destination">Destination:</label>
+        <input id="destination" type="text" name="destination" required>
+
+        <label for="distance">Distance (km):</label>
+        <input id="distance" type="number" name="distance" required>
+
+        <label for="transport">Transport:</label>
+        <select id="transport" name="transport">
+            <option value="0.192">Car (gasoline)</option>
+            <option value="0.045">Car (electric)</option>
+            <option value="0.105">Bus</option>
+            <option value="0.041">Train</option>
+            <option value="0.255">Airplane (short-haul)</option>
+            <option value="0.195">Airplane (long-haul)</option>
+            <option value="0">Bicycle / Walking</option>
+        </select>
+
+        <button type="submit">Calculate</button>
+    </form>
+
+    <div id="result" class="result-box"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
