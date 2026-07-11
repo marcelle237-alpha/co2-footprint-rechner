@@ -17,8 +17,8 @@ Enter your typical travel habits (car mileage, flight frequency, public transit 
 ## Run it locally
 
 ```bash
-git clone https://github.com/marcelle237-alpha/co2-footprint-calculator.git
-cd co2-footprint-calculator
+git clone https://github.com/marcelle237-alpha/co2-footprint-rechner.git
+cd co2-footprint-rechner
 open index.html
 ```
 
