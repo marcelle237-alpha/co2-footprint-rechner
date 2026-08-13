@@ -28,7 +28,6 @@ No build step, no dependencies just open the file in a browser.
 
 - Working with real-world CO2 emission factors and doing the math client-side
 - Structuring a multi-input form and handling calculations with vanilla JS
-- (Add anything else specific did you research actual emission-factor data? handle edge cases like empty inputs? make it responsive?)
 
 ## Possible improvements
 
